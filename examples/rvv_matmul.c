@@ -41,7 +41,7 @@ void matmul(double **a, double **b, double **c, int n, int m, int o) {
 int main() {
   const int N = 8;
   const int M = 8;
-  const int O = 7;
+  const int O = 8;
   uint32_t seed = 0xdeadbeef;
   srand(seed);
 
